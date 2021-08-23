@@ -41,7 +41,6 @@ struct GameListView: View {
                 }
             }.blur(radius: show ? 3.0 : 0)
             .accentColor(Color("third-color"))
-            .background(Color.red)
             VStack {
                 Spacer()
                 

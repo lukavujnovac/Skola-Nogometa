@@ -40,12 +40,12 @@ struct GameList {
         Game(homeClub: ClubList.clubs[0], awayClub: ClubList.clubs[3], time: "10 : 30", date: "27.03.2022."),
         Game(homeClub: ClubList.clubs[15], awayClub: ClubList.clubs[0], time: "10 : 30", date: "03.04.2022."),
         Game(homeClub: ClubList.clubs[0], awayClub: ClubList.clubs[5], time: "10 : 30", date: "10.04.2022."),
-        Game(homeClub: ClubList.clubs[0], awayClub: ClubList.clubs[5], time: "10 : 30", date: "15.04.2022."),
+        Game(homeClub: ClubList.clubs[0], awayClub: ClubList.clubs[14], time: "10 : 30", date: "15.04.2022."),
         Game(homeClub: ClubList.clubs[1], awayClub: ClubList.clubs[0], time: "10 : 30", date: "20.04.2022."),
         Game(homeClub: ClubList.clubs[0], awayClub: ClubList.clubs[6], time: "10 : 30", date: "24.04.2022."),
         Game(homeClub: ClubList.clubs[9], awayClub: ClubList.clubs[0], time: "10 : 30", date: "01.05.2022."),
         Game(homeClub: ClubList.clubs[0], awayClub: ClubList.clubs[2], time: "10 : 30", date: "08.05.2022."),
-        Game(homeClub: ClubList.clubs[0], awayClub: ClubList.clubs[10], time: "10 : 30", date: "15.05.2022."),
+        Game(homeClub: ClubList.clubs[8], awayClub: ClubList.clubs[0], time: "10 : 30", date: "15.05.2022."),
         Game(homeClub: ClubList.clubs[0], awayClub: ClubList.clubs[10], time: "10 : 30", date: "22.05.2022."),
         Game(homeClub: ClubList.clubs[11], awayClub: ClubList.clubs[0], time: "10 : 30", date: "29.05.2021.")
     ]

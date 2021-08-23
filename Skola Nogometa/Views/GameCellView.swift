@@ -21,6 +21,7 @@ struct GameCellView: View {
                             .frame(width: 50, height: 50, alignment: .center)
                         Text(game.homeClub.name)
                             .frame(width: 100, height: 20, alignment: .center)
+                            .font(Font.system(size: 17, weight: .semibold, design: .default))
                     }
                     
                     VStack {
@@ -37,6 +38,7 @@ struct GameCellView: View {
                             .frame(width: 50, height: 50, alignment: .center)
                         Text(game.awayClub.name)
                             .frame(width: 100, height: 20, alignment: .center)
+                            .font(Font.system(size: 17, weight: .semibold, design: .default))
                     }.padding()
                 }.padding(.leading, 20)
             )

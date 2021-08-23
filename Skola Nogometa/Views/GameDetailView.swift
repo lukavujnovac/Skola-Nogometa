@@ -14,7 +14,7 @@ struct GameDetailView: View {
     @State var text: String = ""
     
     //array svih formacija
-    let formations = ["4231", "433", "442"]
+    let formations = ["4231", "433", "442", "442(2)"]
     
     var body: some View {
         ScrollView {
@@ -27,6 +27,7 @@ struct GameDetailView: View {
                             .frame(width: 50, height: 50, alignment: .center)
                         Text(game.homeClub.name)
                             .frame(width: 100, height: 20, alignment: .center)
+                            .font(Font.system(size: 15, weight: .semibold, design: .default))
                     }.padding()
                     
                     VStack {
@@ -43,6 +44,7 @@ struct GameDetailView: View {
                             .frame(width: 50, height: 50, alignment: .center)
                         Text(game.awayClub.name)
                             .frame(width: 100, height: 20, alignment: .center)
+                            .font(Font.system(size: 15, weight: .semibold, design: .default))
                     }.padding()
                 }
                 
@@ -91,6 +93,8 @@ struct GameDetailView: View {
                                     Formation433()
                                 case 2:
                                     Formation442()
+                                case 3:
+                                    Formation4422()
                                 default:
                                     Formation4231()
                             }

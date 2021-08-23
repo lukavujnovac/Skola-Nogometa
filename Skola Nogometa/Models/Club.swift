@@ -26,7 +26,7 @@ struct ClubList {
         Club(name: "Split", image: "split"),
         Club(name: "Solin", image: "solin"),
         Club(name: "Trogir", image: "trogir"),
-        Club(name: "Primorac BNM", image: "primorac-bnm"),
+        Club(name: "Primorac(BNM)", image: "primorac-bnm"),
         Club(name: "Primorac (S)", image: "primorac-s"),
         Club(name: "Neretva", image: "neretva"),
         Club(name: "Zmaj", image: "zmaj")

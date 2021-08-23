@@ -64,7 +64,7 @@ struct PlayerStatsView: View {
                                                 .foregroundColor(.secondary)
                                                 .font(Font.system(size: 15, weight: .light, design: .default))
                                             
-                                            Text("191")
+                                            Text("215")
                                                 .foregroundColor(Color("fourth-color"))
                                                 .font(Font.system(size: 17, weight: .medium, design: .default))
                                         }
@@ -97,7 +97,7 @@ struct PlayerStatsView: View {
                                                 .foregroundColor(.secondary)
                                                 .font(Font.system(size: 15, weight: .light, design: .default))
                                             
-                                            Text("75")
+                                            Text("140")
                                                 .foregroundColor(Color("fourth-color"))
                                                 .font(Font.system(size: 17, weight: .medium, design: .default))
                                         }
