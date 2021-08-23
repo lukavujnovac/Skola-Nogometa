@@ -11,6 +11,16 @@
 		5F26B4EE26D3B81200E83BDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26B4ED26D3B81200E83BDC /* ContentView.swift */; };
 		5F26B4F026D3B81300E83BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F26B4EF26D3B81300E83BDC /* Assets.xcassets */; };
 		5F26B4F326D3B81300E83BDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F26B4F226D3B81300E83BDC /* Preview Assets.xcassets */; };
+		5F26B4FC26D3B85700E83BDC /* GameCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26B4FB26D3B85700E83BDC /* GameCellView.swift */; };
+		5F26B4FE26D3B87700E83BDC /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26B4FD26D3B87600E83BDC /* GameDetailView.swift */; };
+		5F26B50026D3B89000E83BDC /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26B4FF26D3B89000E83BDC /* GameListView.swift */; };
+		5F26B50226D3B8A700E83BDC /* GameStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26B50126D3B8A700E83BDC /* GameStatsView.swift */; };
+		5F26B50426D3B8C100E83BDC /* PlayerStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26B50326D3B8C100E83BDC /* PlayerStatsView.swift */; };
+		5F26B50626D3B8EB00E83BDC /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26B50526D3B8EB00E83BDC /* PlayerView.swift */; };
+		5F26B50826D3B90800E83BDC /* TrainingStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26B50726D3B90800E83BDC /* TrainingStats.swift */; };
+		5F26B50B26D3B98100E83BDC /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26B50A26D3B98100E83BDC /* Club.swift */; };
+		5F26B50D26D3B99900E83BDC /* Formation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26B50C26D3B99900E83BDC /* Formation.swift */; };
+		5F26B50F26D3B9B800E83BDC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26B50E26D3B9B800E83BDC /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +30,16 @@
 		5F26B4EF26D3B81300E83BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F26B4F226D3B81300E83BDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F26B4F426D3B81300E83BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F26B4FB26D3B85700E83BDC /* GameCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCellView.swift; sourceTree = "<group>"; };
+		5F26B4FD26D3B87600E83BDC /* GameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
+		5F26B4FF26D3B89000E83BDC /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
+		5F26B50126D3B8A700E83BDC /* GameStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStatsView.swift; sourceTree = "<group>"; };
+		5F26B50326D3B8C100E83BDC /* PlayerStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStatsView.swift; sourceTree = "<group>"; };
+		5F26B50526D3B8EB00E83BDC /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		5F26B50726D3B90800E83BDC /* TrainingStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingStats.swift; sourceTree = "<group>"; };
+		5F26B50A26D3B98100E83BDC /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		5F26B50C26D3B99900E83BDC /* Formation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formation.swift; sourceTree = "<group>"; };
+		5F26B50E26D3B9B800E83BDC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				5F26B4EB26D3B81200E83BDC /* Skola_NogometaApp.swift */,
-				5F26B4ED26D3B81200E83BDC /* ContentView.swift */,
+				5F26B50926D3B96E00E83BDC /* Models */,
+				5F26B4FA26D3B81B00E83BDC /* Views */,
 				5F26B4EF26D3B81300E83BDC /* Assets.xcassets */,
 				5F26B4F426D3B81300E83BDC /* Info.plist */,
 				5F26B4F126D3B81300E83BDC /* Preview Content */,
@@ -67,6 +88,31 @@
 				5F26B4F226D3B81300E83BDC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F26B4FA26D3B81B00E83BDC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F26B4ED26D3B81200E83BDC /* ContentView.swift */,
+				5F26B4FB26D3B85700E83BDC /* GameCellView.swift */,
+				5F26B4FD26D3B87600E83BDC /* GameDetailView.swift */,
+				5F26B4FF26D3B89000E83BDC /* GameListView.swift */,
+				5F26B50126D3B8A700E83BDC /* GameStatsView.swift */,
+				5F26B50326D3B8C100E83BDC /* PlayerStatsView.swift */,
+				5F26B50526D3B8EB00E83BDC /* PlayerView.swift */,
+				5F26B50726D3B90800E83BDC /* TrainingStats.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F26B50926D3B96E00E83BDC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F26B50A26D3B98100E83BDC /* Club.swift */,
+				5F26B50C26D3B99900E83BDC /* Formation.swift */,
+				5F26B50E26D3B9B800E83BDC /* Game.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +184,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F26B50026D3B89000E83BDC /* GameListView.swift in Sources */,
 				5F26B4EE26D3B81200E83BDC /* ContentView.swift in Sources */,
+				5F26B4FC26D3B85700E83BDC /* GameCellView.swift in Sources */,
+				5F26B50D26D3B99900E83BDC /* Formation.swift in Sources */,
+				5F26B50626D3B8EB00E83BDC /* PlayerView.swift in Sources */,
 				5F26B4EC26D3B81200E83BDC /* Skola_NogometaApp.swift in Sources */,
+				5F26B50226D3B8A700E83BDC /* GameStatsView.swift in Sources */,
+				5F26B50F26D3B9B800E83BDC /* Game.swift in Sources */,
+				5F26B50826D3B90800E83BDC /* TrainingStats.swift in Sources */,
+				5F26B50B26D3B98100E83BDC /* Club.swift in Sources */,
+				5F26B4FE26D3B87700E83BDC /* GameDetailView.swift in Sources */,
+				5F26B50426D3B8C100E83BDC /* PlayerStatsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
